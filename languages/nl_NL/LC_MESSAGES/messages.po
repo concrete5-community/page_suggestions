@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: page_suggestions 0.9.4\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2016-04-01T10:53:11+02:00\n"
+"PO-Revision-Date: 2016-04-01 10:53+0200\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: packages/page_suggestions/controller.php:15
+msgid "Show a list of page suggestions based on the current URL."
+msgstr "Toont een lijst met paginasuggesties voor de huidige URL."
+
+#: packages/page_suggestions/controller.php:20
+msgid "Page Suggestions"
+msgstr "Pagina Suggesties"
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:9
+msgid "Block title"
+msgstr "Bloktitel"
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:13
+msgid "Leave empty if you don't want a title above the results. The title will only be visible if there are page suggestions."
+msgstr "Laat leeg als u geen titel wilt boven de resultaten. De titel is alleen zichtbaar als er paginasuggesties zijn."
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:30
+msgid "Excluded words"
+msgstr "Uitgesloten woorden"
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:34
+msgid "Comma separated list of words that should be excluded as search keywords."
+msgstr "Kommagescheiden lijst met woorden die uitgesloten moeten worden als trefwoord."
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:51
+msgid "Minimal word length"
+msgstr "Minimale woordlengte"
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:55
+msgid "Instead of entering a whole list of tiny words that should be excluded, you can also define a minimal character length for keywords."
+msgstr "In plaats van een lange lijst met korte uitstluitingswoorden te maken, kunt u ook een minimale lengte voor trefwoorden definiëren."
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:64
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:88
+msgid "%d (default)"
+msgstr "%d (standaard)"
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:75
+msgid "Limit number of keywords from URL"
+msgstr "Beperk het aantal trefwoorden van de URL"
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:79
+msgid "If a long URL results in a 404-page, you probably have a lot of keywords. You should limit the number of keywords to get better page suggestions. The block automatically sorts the keywords from the URL by length."
+msgstr "Als een lange URL resulteert in een 404-pagina, krijgt u waarschijnlijk veel trefwoorden. U kunt het beste het aantal trefwoorden beperken voor betere zoeksuggesties. Het blok sorteert automatisch trefwoorden op lengte."
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:99
+msgid "Debug mode"
+msgstr "Debug modus"
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:103
+msgid "If you don't get any results or you want to know what the block is doing, you can enable the debug mode. This is for testing purposes only."
+msgstr "Als u geen resultaten krijgt of u wilt weten wat het blok doet, dan kunt u de debugmodus inschakelen. Dit is voor testdoeleinden bedoeld."
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:109
+msgid "Disabled (default)"
+msgstr "Uitgeschakeld (standaard)"
+
+#: packages/page_suggestions/blocks/page_suggestions/edit.php:109
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: packages/page_suggestions/blocks/page_suggestions/view.php:13
+msgid "All keywords:"
+msgstr "Alle trefwoorden:"
+
+#: packages/page_suggestions/blocks/page_suggestions/view.php:16
+msgid "Filtered keywords:"
+msgstr "Gefilterde trefwoorden:"
+
+#: packages/page_suggestions/blocks/page_suggestions/view.php:19
+msgid "Sorted keywords:"
+msgstr "Gesorteerde trefwoorden:"
+
+#: packages/page_suggestions/blocks/page_suggestions/view.php:26
+msgid "No results found for the given keyword(s)."
+msgstr ""

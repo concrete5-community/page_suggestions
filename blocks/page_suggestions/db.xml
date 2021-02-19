@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema
+        xmlns="http://www.concrete5.org/doctrine-xml/0.5"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.concrete5.org/doctrine-xml/0.5 http://concrete5.github.io/doctrine-xml/doctrine-xml-0.5.xsd">
+    <table name="btPageSuggestions">
+        <field name="bID" type="integer" size="10">
+            <unsigned/>
+            <autoincrement/>
+            <key/>
+        </field>
+        <field name="debug" type="boolean">
+            <default value="0"/>
+            <notnull/>
+        </field>
+        <field name="excluded_words" type="text"></field>
+        <field name="max_keywords" type="integer">
+        	<default value="4"/>
+        </field>
+        <field name="max_pages" type="integer">
+            <default value="4"/>
+        </field>
+        <field name="min_word_length" type="integer">
+            <default value="1"/>
+        </field>
+        <field name="block_title" type="string" size="255"></field>
+    </table>
+</schema>
