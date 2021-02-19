@@ -8,7 +8,7 @@ class Controller extends Package
 {
     protected $pkgHandle = 'page_suggestions';
     protected $appVersionRequired = '5.7.4';
-    protected $pkgVersion = '0.9.6';
+    protected $pkgVersion = '1.0';
 
     public function getPackageDescription()
     {
